@@ -13,14 +13,14 @@
         <meta name="author" content="Square, Inc.">
       
       
-        <link rel="canonical" href="https://square.github.com/okhttp/calls/">
+        <link rel="canonical" href="https://square.github.com/okhttp/contributing/">
       
       <link rel="icon" href="../images/icon-square.png">
       <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.4">
     
     
       
-        <title>Calls - OkHttp</title>
+        <title>Contributing - OkHttp</title>
       
     
     
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#calls" class="md-skip">
+        <a href="#contributing" class="md-skip">
           Skip to content
         </a>
       
@@ -102,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Calls
+              Contributing
             
           </span>
         </div>
@@ -239,100 +239,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Calls
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../calls/" class="md-nav__link">
         Calls
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#requests" class="md-nav__link">
-    Requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#responses" class="md-nav__link">
-    Responses
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rewriting-requests" class="md-nav__link">
-    Rewriting Requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rewriting-responses" class="md-nav__link">
-    Rewriting Responses
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#follow-up-requests" class="md-nav__link">
-    Follow-up Requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#retrying-requests" class="md-nav__link">
-    Retrying Requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#calls_1" class="md-nav__link">
-    Calls
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dispatch" class="md-nav__link">
-    Dispatch
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -748,11 +659,72 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../contributing/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Contributing
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Contributing
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#code-contributions" class="md-nav__link">
+    Code Contributions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gradle-setup" class="md-nav__link">
+    Gradle Setup
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-android-tests" class="md-nav__link">
+    Running Android Tests
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#committers-guides" class="md-nav__link">
+    Committer's Guides
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -798,57 +770,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#requests" class="md-nav__link">
-    Requests
+  <a href="#code-contributions" class="md-nav__link">
+    Code Contributions
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#responses" class="md-nav__link">
-    Responses
+  <a href="#gradle-setup" class="md-nav__link">
+    Gradle Setup
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#rewriting-requests" class="md-nav__link">
-    Rewriting Requests
+  <a href="#running-android-tests" class="md-nav__link">
+    Running Android Tests
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#rewriting-responses" class="md-nav__link">
-    Rewriting Responses
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#follow-up-requests" class="md-nav__link">
-    Follow-up Requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#retrying-requests" class="md-nav__link">
-    Retrying Requests
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#calls_1" class="md-nav__link">
-    Calls
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#dispatch" class="md-nav__link">
-    Dispatch
+  <a href="#committers-guides" class="md-nav__link">
+    Committer's Guides
   </a>
   
 </li>
@@ -866,35 +810,37 @@
               
                 
                 
-                <h1 id="calls">Calls<a class="headerlink" href="#calls" title="Permanent link">&para;</a></h1>
-<p>The HTTP client’s job is to accept your request and produce its response. This is simple in theory but it gets tricky in practice.</p>
-<h2 id="requests"><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-request/">Requests</a><a class="headerlink" href="#requests" title="Permanent link">&para;</a></h2>
-<p>Each HTTP request contains a URL, a method (like <code>GET</code> or <code>POST</code>), and a list of headers. Requests may also contain a body: a data stream of a specific content type.</p>
-<h2 id="responses"><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-response/">Responses</a><a class="headerlink" href="#responses" title="Permanent link">&para;</a></h2>
-<p>The response answers the request with a code (like 200 for success or 404 for not found), headers, and its own optional body.</p>
-<h2 id="rewriting-requests">Rewriting Requests<a class="headerlink" href="#rewriting-requests" title="Permanent link">&para;</a></h2>
-<p>When you provide OkHttp with an HTTP request, you’re describing the request at a high-level: <em>“fetch me this URL with these headers.”</em> For correctness and efficiency, OkHttp rewrites your request before transmitting it.</p>
-<p>OkHttp may add headers that are absent from the original request, including <code>Content-Length</code>, <code>Transfer-Encoding</code>, <code>User-Agent</code>, <code>Host</code>, <code>Connection</code>, and <code>Content-Type</code>. It will add an <code>Accept-Encoding</code> header for transparent response compression unless the header is already present. If you’ve got cookies, OkHttp will add a <code>Cookie</code> header with them.</p>
-<p>Some requests will have a cached response. When this cached response isn’t fresh, OkHttp can do a <em>conditional GET</em> to download an updated response if it’s newer than what’s cached. This requires headers like <code>If-Modified-Since</code> and <code>If-None-Match</code> to be added.</p>
-<h2 id="rewriting-responses">Rewriting Responses<a class="headerlink" href="#rewriting-responses" title="Permanent link">&para;</a></h2>
-<p>If transparent compression was used, OkHttp will drop the corresponding response headers <code>Content-Encoding</code> and <code>Content-Length</code> because they don’t apply to the decompressed response body.</p>
-<p>If a conditional GET was successful, responses from the network and cache are merged as directed by the spec.</p>
-<h2 id="follow-up-requests">Follow-up Requests<a class="headerlink" href="#follow-up-requests" title="Permanent link">&para;</a></h2>
-<p>When your requested URL has moved, the webserver will return a response code like <code>302</code> to indicate the document’s new URL. OkHttp will follow the redirect to retrieve a final response.</p>
-<p>If the response issues an authorization challenge, OkHttp will ask the <a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-authenticator/"><code>Authenticator</code></a> (if one is configured) to satisfy the challenge. If the authenticator supplies a credential, the request is retried with that credential included.</p>
-<h2 id="retrying-requests">Retrying Requests<a class="headerlink" href="#retrying-requests" title="Permanent link">&para;</a></h2>
-<p>Sometimes connections fail: either a pooled connection was stale and disconnected, or the webserver itself couldn’t be reached. OkHttp will retry the request with a different route if one is available.</p>
-<h2 id="calls_1"><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-call/">Calls</a><a class="headerlink" href="#calls_1" title="Permanent link">&para;</a></h2>
-<p>With rewrites, redirects, follow-ups and retries, your simple request may yield many requests and responses. OkHttp uses <code>Call</code> to model the task of satisfying your request through however many intermediate requests and responses are necessary. Typically this isn’t many! But it’s comforting to know that your code will continue to work if your URLs are redirected or if you failover to an alternate IP address.</p>
-<p>Calls are executed in one of two ways:</p>
+                <h1 id="contributing">Contributing<a class="headerlink" href="#contributing" title="Permanent link">&para;</a></h1>
+<p>Keeping the project small and stable limits our ability to accept new contributors. We are not
+seeking new committers at this time, but some small contributions are welcome.</p>
+<p>If you&rsquo;ve found a security problem, please follow our <a href="https://square.github.io/okhttp/security/">bug bounty</a> program.</p>
+<p>If you&rsquo;ve found a bug, please contribute a failing test case so we can study and fix it.</p>
+<p>If you have a new feature idea, please build it in an external library. There are
+<a href="https://square.github.io/okhttp/works_with_okhttp/">many libraries</a> that sit on top or hook in via existing APIs. If you build
+something that integrates with OkHttp, tell us so that we can link it!</p>
+<p>Before code can be accepted all contributors must complete our
+<a href="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dDViT2xzUHAwRkI3X3k5Z0lQM091OGc6MQ&amp;ndplr=1">Individual Contributor License Agreement (CLA)</a>.</p>
+<h2 id="code-contributions">Code Contributions<a class="headerlink" href="#code-contributions" title="Permanent link">&para;</a></h2>
+<p>Get working code on a personal branch with tests passing before you submit a PR:</p>
+<div class="highlight"><pre><span></span><code>./gradlew clean check
+</code></pre></div>
+<p>Please make every effort to follow existing conventions and style in order to keep the code as
+readable as possible.</p>
+<p>Contribute code changes through GitHub by forking the repository and sending a pull request. We
+squash all pull requests on merge.</p>
+<h2 id="gradle-setup">Gradle Setup<a class="headerlink" href="#gradle-setup" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code>$ cat local.properties
+sdk.dir=PATH_TO_ANDROID_HOME/sdk
+org.gradle.caching=true
+</code></pre></div>
+<h2 id="running-android-tests">Running Android Tests<a class="headerlink" href="#running-android-tests" title="Permanent link">&para;</a></h2>
+<p>$ ANDROID_SDK_ROOT=PATH_TO_ANDROID_HOME/sdk ./gradlew :android-test:connectedCheck</p>
+<h2 id="committers-guides">Committer&rsquo;s Guides<a class="headerlink" href="#committers-guides" title="Permanent link">&para;</a></h2>
 <ul>
-<li><strong>Synchronous:</strong> your thread blocks until the response is readable.</li>
-<li><strong>Asynchronous:</strong> you enqueue the request on any thread, and get <a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-callback/">called back</a> on another thread when the response is readable.</li>
+<li><a href="https://square.github.io/okhttp/concurrency/">Concurrency</a></li>
+<li><a href="https://square.github.io/okhttp/debug_logging/">Debug Logging</a></li>
+<li><a href="https://square.github.io/okhttp/releasing/">Releasing</a></li>
 </ul>
-<p>Calls can be canceled from any thread. This will fail the call if it hasn’t yet completed! Code that is writing the request body or reading the response body will suffer an <code>IOException</code> when its call is canceled.</p>
-<h2 id="dispatch">Dispatch<a class="headerlink" href="#dispatch" title="Permanent link">&para;</a></h2>
-<p>For synchronous calls, you bring your own thread and are responsible for managing how many simultaneous requests you make. Too many simultaneous connections wastes resources; too few harms latency.</p>
-<p>For asynchronous calls, <a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-dispatcher/"><code>Dispatcher</code></a> implements policy for maximum simultaneous requests. You can set maximums per-webserver (default is 5), and overall (default is 64).</p>
                 
               
               
@@ -914,7 +860,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Overview" rel="prev">
+        <a href="../changelog/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Change Log" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -923,20 +869,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Overview
+              Change Log
             </div>
           </div>
         </a>
       
       
         
-        <a href="../caching/" class="md-footer__link md-footer__link--next" aria-label="Next: Caching" rel="next">
+        <a href="../code_of_conduct/" class="md-footer__link md-footer__link--next" aria-label="Next: Code of Conduct" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Caching
+              Code of Conduct
             </div>
           </div>
           <div class="md-footer__button md-icon">
