@@ -2,117 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://square.github.com/okhttp/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/caching/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/calls/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/changelog/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/changelog_1x/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/changelog_2x/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/changelog_3x/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/code_of_conduct/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/concurrency/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/connections/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/contributing/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/debug_logging/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/events/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/https/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/interceptors/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/r8_proguard/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/recipes/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/releasing/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/security/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/security_providers/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/tls_configuration_history/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/upgrading_to_okhttp_4/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://square.github.com/okhttp/works_with_okhttp/</loc>
-         <lastmod>2021-08-21</lastmod>
+         <lastmod>2021-08-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
